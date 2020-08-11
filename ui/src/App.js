@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <h1>Welcome to {this.state.title}</h1>
+          <h1>Welcome, my bredda, to {this.state.title}</h1>
           <nav>
             <Link to="scala">
               <img width="400" height="400" src={scalaLogo} alt="Scala Logo"/>

@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/play -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Dslick.dbs.default.profile=slick.jdbc.PostgresProfile$ -Dslick.dbs.default.db.driver=org.postgresql.Driver -Dslick.dbs.default.db.url=${DATABASE_URL} -Dslick.dbs.default.db.dataSourceClass=slick.jdbc.DatabaseUrlDataSource
