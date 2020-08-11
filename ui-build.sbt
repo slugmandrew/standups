@@ -60,7 +60,7 @@ lazy val `ui-prod-build` = taskKey[Unit]("Run UI build when packaging the applic
 dist := (dist dependsOn `ui-prod-build`).value
 
 // Execute frontend prod build task prior to play stage execution.
-stage := (stage dependsOn `ui-prod-build`).value
+//stage := (stage dependsOn `ui-prod-build`).value
 
 // Execute frontend test task prior to play test execution.
 test := ((test in Test) dependsOn `ui-test`).value
