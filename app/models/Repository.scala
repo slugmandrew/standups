@@ -2,9 +2,8 @@ package models
 
 import java.time.ZoneId
 
-import org.h2.engine.User
 import play.api.db.slick.DatabaseConfigProvider
-import slick.jdbc.JdbcProfile
+import slick.jdbc.{JdbcProfile, PostgresProfile}
 import slick.util.Logging
 
 import scala.concurrent.Future
